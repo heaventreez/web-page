@@ -8,10 +8,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const cardContentMap = {
         historia: {
-            title: "Mi Trayectoria Personal",
-            html: `<p>Desde muy joven, me apasionó la intersección entre el diseño y la funcionalidad. Mi camino en la tecnología comenzó con el desarrollo web, centrándose rápidamente en la experiencia del usuario (UX) para crear productos que no solo funcionen, sino que también deleiten. </p>
-                   <img src="https://via.placeholder.com/600x300?text=Imagen+Historia" alt="Imagen de mi historia" style="max-width: 100%; border-radius: 10px; margin-top: 20px;">
-                   <p>Mis pasiones incluyen el diseño minimalista, la fotografía y la música. Creo que la simplicidad es la máxima sofisticación.</p>`
+            title: "PERSONAL CAREER",
+            html: `<p>From a young age, I was passionate about the intersection of design and functionality. My path in technology began with web development, quickly focusing on user experience (UX) for. </p>
+                   <p>My passions include minimalist design, photography, and music. I believe simplicity is the ultimate sophistication..</p>`
         },
         habilidades: {
             title: "Habilidades y Stack Tecnológico",
@@ -31,12 +30,11 @@ document.addEventListener('DOMContentLoaded', () => {
                </ul>
                <p style="text-align:center;">*Puedes ver más detalles y demos en mi GitHub.*</p>`
         },
-        contacto: {
-            title: "Conecta Conmigo",
-            html: `<p>Si tienes alguna consulta, propuesta de proyecto o simplemente quieres saludar, no dudes en contactarme:</p>
-                   <p>📧 Email: <a href="mailto:tuemail@example.com" style="color: #4ECDC4;">x</a></p>
-                   <p>🔗 LinkedIn: [Tu Enlace]</p>
-                   <p>💾 GitHub: [Tu Enlace]</p>`
+        contacts: {
+            title: "Connect With Me",
+            html: `<p>If you have any questions, project proposals, or just want to say hello, please don't hesitate to contact me.:</p>
+                   <p>📧 Email: <a href="mailto:chroot.dan@proton.me" style="color: #4ECDC4;">chroot.dan@proton.me</a></p>
+                   <p>💾 GitHub: <a href="https://github.com/heaventreez" style="color: #4ECDC4;">heaventreez</a></p>`
         }
     };
 
