@@ -7,12 +7,12 @@ document.addEventListener('DOMContentLoaded', () => {
     const cards = document.querySelectorAll('.card');
 
     const cardContentMap = {
-        historia: {
+        history: {
             title: "PERSONAL CAREER",
             html: `<p>From a young age, I was passionate about the intersection of design and functionality. My path in technology began with web development, quickly focusing on user experience (UX) for. </p>
                    <p>My passions include minimalist design, photography, and music. I believe simplicity is the ultimate sophistication..</p>`
         },
-        habilidades: {
+        skills: {
             title: "Skills and Technology Stack",
             html: `<h3>Fron-end:</h3>
                    <p>HTML5, CSS3 (Flexbox, Grid), JavaScript ES6+, React.js (basic)</p>
@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
                    <h3>Backend/Databases:</h3>
                    <p>Node.js (limited experience), MySQL</p>`
         },
-        proyectos: {
+        projects: {
             title: "Featured Projects",
             html: `<ul>
                 <li>x</li>
