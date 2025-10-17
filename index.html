@@ -1,1 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Personal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans+Flex:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
 
+    <div class="background-container">
+        <div id="particles-background"></div>
+    </div>
+
+    <div class="container">
+        
+        <section class="profile-card">
+            <div class="profile-image-container">
+                <img src="assets/img/perfil.jpg" alt="Foto de Perfil" class="profile-image">
+            </div>
+        </section>
+        
+        <header class="card">
+            <h1 class="main-title">Sobre Mí</h1>
+        </header>
+
+        <section class="card" data-modal-target="historia">
+            <h2 class="card-title">Mi Historia</h2>
+            <p>Aquí puedes escribir una breve introducción sobre ti, tu trayectoria profesional, tus pasiones y lo que te motiva. Trata de que sea personal y atractivo para quien lo lea.</p>
+        </section>
+
+        <section class="card-container">
+            <div class="card" data-modal-target="habilidades">
+                <h2 class="card-title">Mis Habilidades</h2>
+                <ul>
+                    <li>Desarrollo Web (HTML, CSS, JS)</li>
+                    <li>Diseño UX/UI</li>
+                    <li>Gestión de Proyectos</li>
+                    <li>Marketing Digital</li>
+                </ul>
+            </div>
+
+            <div class="card" data-modal-target="proyectos">
+                <h2 class="card-title">Mis Proyectos</h2>
+                <p>Describe aquí algunos de los proyectos más importantes en los que has trabajado. Puedes añadir enlaces si lo deseas.</p>
+            </div>
+
+            <div class="card" data-modal-target="contacto">
+                <h2 class="card-title">Contacto</h2>
+                <p>Puedes encontrarme en <a href="#">LinkedIn</a>, <a href="#">GitHub</a> o enviarme un correo electrónico a <a href="mailto:tuemail@example.com">tuemail@example.com</a>.</p>
+            </div>
+        </section>
+    </div>
+
+    <div id="modal-overlay" class="modal-overlay">
+        <div id="modal-card" class="modal-card">
+            <button id="modal-close" class="modal-close">&times;</button>
+            <h2 id="modal-title" class="modal-title">Título</h2>
+            <div id="modal-content" class="modal-content">
+                <p>Información detallada...</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/particles.js"></script>
+</body>
+</html>
