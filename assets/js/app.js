@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
+
     const modalOverlay = document.getElementById('modal-overlay');
     const modalTitle = document.getElementById('modal-title');
     const modalContent = document.getElementById('modal-content');
@@ -24,26 +25,27 @@ document.addEventListener('DOMContentLoaded', () => {
         proyectos: {
             title: "Proyectos Destacados",
             html: `<ul>
-                    <li>**Proyecto Alpha (Web App):** Una plataforma de gestión de tareas construida con React y Node.js. Enfoque en accesibilidad y rendimiento.</li>
-                    <li>**Portafolio Personal (UX/UI):** Rediseño completo para mejorar la navegación y el tiempo de carga.</li>
-                    <li>**E-commerce Mockup:** Diseño de experiencia de compra optimizada para móvil.</li>
-                   </ul>
-                   <p style="text-align:center;">*Puedes ver más detalles y demos en mi GitHub.*</p>`
+                <li>**Proyecto Alpha (Web App):** Una plataforma de gestión de tareas construida con React y Node.js. Enfoque en accesibilidad y rendimiento.</li>
+                <li>**Portafolio Personal (UX/UI):** Rediseño completo para mejorar la navegación y el tiempo de carga.</li>
+                <li>**E-commerce Mockup:** Diseño de experiencia de compra optimizada para móvil.</li>
+               </ul>
+               <p style="text-align:center;">*Puedes ver más detalles y demos en mi GitHub.*</p>`
         },
         contacto: {
             title: "Conecta Conmigo",
             html: `<p>Si tienes alguna consulta, propuesta de proyecto o simplemente quieres saludar, no dudes en contactarme:</p>
-                   <p>📧 Email: <a href="mailto:tuemail@example.com" style="color: #4ECDC4;">tuemail@example.com</a></p>
+                   <p>📧 Email: <a href="mailto:tuemail@example.com" style="color: #4ECDC4;">x</a></p>
                    <p>🔗 LinkedIn: [Tu Enlace]</p>
                    <p>💾 GitHub: [Tu Enlace]</p>`
         }
     };
 
     const openModal = (target) => {
-        const contentData = cardContentMap[target];
-        if (contentData) {
-            modalTitle.textContent = contentData.title;
-            modalContent.innerHTML = contentData.html;
+        const content = cardContentMap[target];
+        
+        if (content) {
+            modalTitle.textContent = content.title;
+            modalContent.innerHTML = content.html;
             modalOverlay.classList.add('active');
             document.body.classList.add('modal-open-lock');
         }

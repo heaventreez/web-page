@@ -56,16 +56,14 @@ body {
     box-sizing: border-box;
 }
 
-/* Estilos de la nueva sección/tarjeta del avatar (Sin fondo de cristal) */
 .profile-card {
-    margin-bottom: 2rem; /* Espacio debajo de la foto */
-    text-align: center; /* Centra el contenedor de la imagen */
-    padding-top: 1rem; /* Pequeño espacio en la parte superior del contenedor */
+    margin-bottom: 2rem;
+    text-align: center;
+    padding-top: 1rem;
 }
 
-/* Estilos de la imagen de perfil */
 .profile-image-container {
-    display: inline-block; /* Permite que la imagen se centre dentro de .profile-card */
+    display: inline-block;
 }
 
 .profile-image {
@@ -82,7 +80,6 @@ body {
 .profile-image:hover {
     transform: scale(1.05);
 }
-/* Fin de estilos de imagen de perfil */
 
 .main-title,
 .card-title {
@@ -107,14 +104,13 @@ header {
     cursor: pointer;
 }
 
-/* El header ahora también usa la clase 'card' */
 header.card {
-    margin-top: 0; /* Ya no necesita ajuste de margen superior */
+    margin-top: 0;
     padding-top: 2rem;
 }
 
 .card::before,
-header.card::before { /* Aplica el efecto de cristal a las tarjetas, incluyendo el header */
+header.card::before {
     content: "";
     position: absolute;
     top: 0;
@@ -204,8 +200,8 @@ a:hover {
     -webkit-backdrop-filter: blur(20px);
     border-radius: 25px;
     border: 1px solid rgba(255, 255, 255, 0.2);
-    padding: 2.5rem;
-    max-width: 600px;
+    padding: 2rem;
+    max-width: 550px; 
     width: 90%;
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
     position: relative;
@@ -282,6 +278,7 @@ a:hover {
     position: fixed;
     width: 100%;
 }
+
 
 @media (max-width: 768px) {
     
