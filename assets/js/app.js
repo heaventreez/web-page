@@ -13,22 +13,22 @@ document.addEventListener('DOMContentLoaded', () => {
                    <p>My passions include minimalist design, photography, and music. I believe simplicity is the ultimate sophistication..</p>`
         },
         habilidades: {
-            title: "Habilidades y Stack Tecnológico",
+            title: "Skills and Technology Stack",
             html: `<h3>Fron-end:</h3>
-                   <p>HTML5, CSS3 (Flexbox, Grid), JavaScript ES6+, React.js (básico)</p>
-                   <h3>Diseño y Gestión:</h3>
-                   <p>Figma, Adobe XD, Metodologías Ágiles (Scrum)</p>
-                   <h3>Backend/Bases de Datos:</h3>
-                   <p>Node.js (experiencia limitada), MySQL</p>`
+                   <p>HTML5, CSS3 (Flexbox, Grid), JavaScript ES6+, React.js (basic)</p>
+                   <h3>Design and Management:</h3>
+                   <p>Figma, Adobe XD, Agile Methodologies (Scrum)</p>
+                   <h3>Backend/Databases:</h3>
+                   <p>Node.js (limited experience), MySQL</p>`
         },
         proyectos: {
-            title: "Proyectos Destacados",
+            title: "Featured Projects",
             html: `<ul>
-                <li>**Proyecto Alpha (Web App):** Una plataforma de gestión de tareas construida con React y Node.js. Enfoque en accesibilidad y rendimiento.</li>
-                <li>**Portafolio Personal (UX/UI):** Rediseño completo para mejorar la navegación y el tiempo de carga.</li>
-                <li>**E-commerce Mockup:** Diseño de experiencia de compra optimizada para móvil.</li>
+                <li>x</li>
+                <li>x</li>
+                <li>x</li>
                </ul>
-               <p style="text-align:center;">*Puedes ver más detalles y demos en mi GitHub.*</p>`
+               <p style="text-align:center;">You can see more details and demos on my GitHub.</p>`
         },
         contacts: {
             title: "Connect With Me",
