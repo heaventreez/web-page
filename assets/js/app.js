@@ -5,11 +5,17 @@ document.addEventListener('DOMContentLoaded', () => {
     const modalContent = document.getElementById('modal-content');
     const modalClose = document.getElementById('modal-close');
     const cards = document.querySelectorAll('.card');
+    
 
     const cardContentMap = {
+       
+        about: {
+            title: "Who I Am",
+            html: `<p>Hello everyone, I'm Dan Pérez, I'm originally from Colombia and I'm 23 years old. I'm dedicated to software and web development. I learned what I know in a self-taught way and it's my hobby.</p>`
+       },
         history: {
-            title: "PERSONAL CAREER",
-            html: `<p>From a young age, I was passionate about the intersection of design and functionality. My path in technology began with web development, quickly focusing on user experience (UX) for. </p>
+            title: "Personal Career",
+            html: `<p>From a young age, I was passionate about the intersection of design and functionality. My path in technology began with web development, quickly focusing on user experience for. </p>
                    <p>My passions include minimalist design, photography, and music. I believe simplicity is the ultimate sophistication..</p>`
         },
         skills: {
@@ -38,7 +44,7 @@ document.addEventListener('DOMContentLoaded', () => {
                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="#4ECDC4" style="vertical-align: middle; margin-right: 8px;">
                            <path d="M2.003 5.884l7.892 5.09-7.892 5.106c.004-.378.012-.76.033-1.144L2.003 5.884zm19.994-.002c0-1.042-.843-1.884-1.885-1.884H3.894c-1.041 0-1.885.842-1.885 1.884v12.232c0 1.043.844 1.884 1.885 1.884h16.218c1.042 0 1.885-.841 1.885-1.884V5.882zm-2.01 1.952V5.882c0-.056-.046-.102-.102-.102L12 11.233l-7.892-5.45c-.056 0-.101.046-.101.102v1.952l7.743 5.006 7.892-5.006zm-7.984 8.232l-7.902-5.115v5.11c0 .057.045.103.102.103l7.7-5.098zM20.106 17.898l-7.9-5.115-7.9 5.115c.002.004.008.007.012.012H20.093c.004-.005.008-.009.013-.012z" />
                        </svg>
-                       Email: <a href="mailto:chroot.dan@proton.me" style="color: #4ECDC4;">chroot.dan@proton.me</a>
+                       Email: <a href="https://mail.google.com/mail/mu/mp/970/#tl/priority/%5Esmartlabel_personal" style="color: #4ECDC4;">skylinedaniel.c@gmail.com</a>
                    </p>
 
                    <p>
